@@ -35,3 +35,4 @@ C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\src\Backend.Persistence\obj\Deb
 C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\src\Backend.Persistence\obj\Debug\net8.0\ref\Backend.Persistence.dll
 C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\src\Backend.Persistence\bin\Debug\net8.0\Backend.Persistence.runtimeconfig.json
 C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\src\Backend.Persistence\obj\Debug\net8.0\Backend.Persistence.genruntimeconfig.cache
+C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\src\Backend.Persistence\obj\Debug\net8.0\Backend.Persistence.sourcelink.json

@@ -4361,8 +4361,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
-              "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
+            "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+              "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
             },
             "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj": {
               "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj"

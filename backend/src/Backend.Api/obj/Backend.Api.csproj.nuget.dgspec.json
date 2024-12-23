@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
-                "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
+              "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+                "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
               },
               "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Common\\Backend.Common.csproj": {
                 "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Common\\Backend.Common.csproj"
@@ -117,14 +117,14 @@
         }
       }
     },
-    "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+    "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj",
+        "projectUniqueName": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj",
         "projectName": "Backend.Application",
-        "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj",
+        "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj",
         "packagesPath": "C:\\Users\\PELT\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\obj\\",
+        "outputPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PELT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -357,8 +357,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
-                "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
+              "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+                "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
               }
             }
           }
@@ -440,8 +440,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
-                "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
+              "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+                "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
               },
               "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj": {
                 "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj"

@@ -10127,8 +10127,8 @@
             "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Api\\Backend.Api.csproj": {
               "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Api\\Backend.Api.csproj"
             },
-            "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
-              "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
+            "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+              "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
             }
           }
         }
@@ -10202,7 +10202,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Tests depends on Microsoft.AspNetCore.Mvc.Testing (>= 4.20.72) but Microsoft.AspNetCore.Mvc.Testing 4.20.72 was not found. An approximate best match of Microsoft.AspNetCore.Mvc.Testing 5.0.0 was resolved.",
+      "message": "Tests depende de Microsoft.AspNetCore.Mvc.Testing (>= 4.20.72), pero no se encontró Microsoft.AspNetCore.Mvc.Testing 4.20.72. Se resolvió una mejor coincidencia aproximada de Microsoft.AspNetCore.Mvc.Testing 5.0.0.",
       "libraryId": "Microsoft.AspNetCore.Mvc.Testing",
       "targetGraphs": [
         "net8.0"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E0Se1jloPTg=",
+  "dgSpecHash": "86KQ+0bR5ls=",
   "success": true,
-  "projectFilePath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj",
+  "projectFilePath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PELT\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\PELT\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",

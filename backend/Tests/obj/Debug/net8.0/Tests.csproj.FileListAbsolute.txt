@@ -468,3 +468,4 @@ C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\Tests\obj\Debug\net8.0\refint\T
 C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\Tests\obj\Debug\net8.0\Tests.pdb
 C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\Tests\obj\Debug\net8.0\Tests.genruntimeconfig.cache
 C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\Tests\obj\Debug\net8.0\ref\Tests.dll
+C:\Users\PELT\Desktop\Paynau\Test\TestFS\backend\Tests\obj\Debug\net8.0\Tests.sourcelink.json
