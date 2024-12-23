@@ -1,0 +1,517 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Api\\Backend.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Api\\Backend.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Api\\Backend.Api.csproj",
+        "projectName": "Backend.Api",
+        "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Api\\Backend.Api.csproj",
+        "packagesPath": "C:\\Users\\PELT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PELT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+                "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
+              },
+              "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Common\\Backend.Common.csproj": {
+                "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Common\\Backend.Common.csproj"
+              },
+              "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.External\\Backend.External.csproj": {
+                "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.External\\Backend.External.csproj"
+              },
+              "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Persistence\\Backend.Persistence.csproj": {
+                "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Persistence\\Backend.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj",
+        "projectName": "Backend.Application",
+        "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj",
+        "packagesPath": "C:\\Users\\PELT\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PELT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj": {
+                "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Common\\Backend.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Common\\Backend.Common.csproj",
+        "projectName": "Backend.Common",
+        "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Common\\Backend.Common.csproj",
+        "packagesPath": "C:\\Users\\PELT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PELT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj",
+        "projectName": "Backend.Domain",
+        "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj",
+        "packagesPath": "C:\\Users\\PELT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PELT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.External\\Backend.External.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.External\\Backend.External.csproj",
+        "projectName": "Backend.External",
+        "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.External\\Backend.External.csproj",
+        "packagesPath": "C:\\Users\\PELT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.External\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PELT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+                "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.34.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Persistence\\Backend.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Persistence\\Backend.Persistence.csproj",
+        "projectName": "Backend.Persistence",
+        "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Persistence\\Backend.Persistence.csproj",
+        "packagesPath": "C:\\Users\\PELT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PELT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj": {
+                "projectPath": "c:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Application\\Backend.Application.csproj"
+              },
+              "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj": {
+                "projectPath": "C:\\Users\\PELT\\Desktop\\Paynau\\Test\\TestFS\\backend\\src\\Backend.Domain\\Backend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
