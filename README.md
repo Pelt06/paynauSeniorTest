@@ -1,4 +1,4 @@
-# 📚 Catálogo de Personas
+# 📚 Catálogo de Productos
 
 ¡Bienvenido al proyecto **Catálogo de Productos**! Esta aplicación permite gestionar un catálogo de personas con funcionalidades de creación, lectura, actualización y eliminación (CRUD).
 
