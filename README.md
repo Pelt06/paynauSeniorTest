@@ -5,7 +5,7 @@
 ## 🚀 Características
 
 - **Interfaz Intuitiva**: Navegación sencilla y amigable.
-- **CRUD Completo**: Agrega, edita y elimina registros de personas.
+- **CRUD Completo**: Agrega, edita y elimina registros de productos.
 - **Notificaciones Atractivas**: Usando **SweetAlert** para confirmaciones.
 - **Modales Modernos**: Interacción fluida a través de modales para todas las operaciones.
 
